@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dtabledemo2</title>
+    <style>
+           table ,tr,td,th,caption{
+            border: 1px;
+            border-width: 1px;
+            border-style:solid;
+            border-collapse: collapse;
+        } 
+        caption{
+            background-color: darkkhaki;
+        }
+        span{
+            background-color: blue;
+        }
+        thead{
+            background-color:blanchedalmond;
+        }
+        tr:hover{
+            background-color: rgb(44, 28, 4);
+        }
+        /* tbody{
+            background-color: beige;
+        } */
+        /* td:nth-child(even){
+            background-color: aquamarine;
+        } */
+        
+         /* tr:nth-child(odd){
+            background-color: blueviolet;
+        } */
+        /*  
+        tr:nth-of-type(4){
+            background-color: brown;
+        } */
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+    <caption>students <span style="color:yellow ;">mark list</span></caption>
+        <thead>
+            <!-- <tr style="background-color: blue;"> -->
+                <th rowspan="2">rollnumber</th>
+                <th rowspan="2">studentname</th>
+                <th rowspan="2">gender</th>
+                <th colspan="2">cgpa</th>
+
+            </tr>
+            <tr style="background-color:blanchedalmond;">
+                <th>internal</th>
+                <th>external</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>41</td>
+                <td>evanlin</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td> 
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>evanl</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>eva</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>evanl</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>enl</td>
+                <td>enl</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>evanl</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>ev</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
