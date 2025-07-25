@@ -1,0 +1,33 @@
+{" employees":
+    [
+        {" id":"001",
+        "name":"suriya",
+        "salary":100000,
+        "gender":"male",
+        "address":{
+            "street":"mg road",
+            "city":"chennai"
+        },
+        "phone":[23456,667,3467],
+        "staus":true
+
+        },
+        {" id":"002",
+        "name":"kaviya",
+        "salary":105000,
+        "gender":"female",
+        "staus":true
+
+        },
+        {" id":"003",
+        "name":"vinai",
+        "salary":600000,
+        "gender":"male",
+        "staus":true
+
+        }
+
+
+
+    ]
+}
